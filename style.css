@@ -1,4 +1,12 @@
+@font-face {
+    font-family : 'NeueMontreal';
+    src: url('NeueMontreal-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    font-family: 'NeueMontreal', sans-serif;
     padding: 0;
     margin: 0;
     display: flex;
