@@ -23,9 +23,9 @@ header h1, body p {
     margin: 0;
 }
 
-.custom-shape-divider-top-1744320250, 
+.custom-shape-divider-top-1744320250,
 .custom-shape-divider-bottom-1744320516 {
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -38,10 +38,9 @@ header h1, body p {
 }
 
 .custom-shape-divider-bottom-1744320516 {
-    bottom: 0;
-}
+    bottom: 0; 
 
-.custom-shape-divider-top-1744320250 svg, 
+.custom-shape-divider-top-1744320250 svg,
 .custom-shape-divider-bottom-1744320516 svg {
     position: relative;
     display: block;
@@ -49,7 +48,7 @@ header h1, body p {
     height: 150px;
 }
 
-.custom-shape-divider-top-1744320250 .shape-fill, 
+.custom-shape-divider-top-1744320250 .shape-fill,
 .custom-shape-divider-bottom-1744320516 .shape-fill {
     fill: #D43733;
 }
@@ -57,6 +56,6 @@ header h1, body p {
 @media (max-width: 768px) {
     .custom-shape-divider-top-1744320250 svg,
     .custom-shape-divider-bottom-1744320516 svg {
-        height: 100px; /* Adjust for smaller screen */
+        height: 100px;
     }
 }
