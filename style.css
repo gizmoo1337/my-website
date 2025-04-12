@@ -1,23 +1,17 @@
-@font-face {
-     font-family : 'NeueMontreal';
-    src: url('NeueMontreal-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-     overflow: hidden;
-    font-family: 'NeueMontreal', sans-serif;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+    overflow: hidden;
+   font-family: 'Special Gothic Expanded One', sans-serif;
+   font-size: 150%;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   color:magenta;
+   
 }
-
 header h1, body p {
     text-align: center;
     margin: 0;
